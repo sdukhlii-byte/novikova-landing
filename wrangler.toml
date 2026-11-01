@@ -1,0 +1,10 @@
+name = "english-landing"
+pages_build_output_dir = "public"
+compatibility_date = "2026-01-01"
+
+# Токены и ключи не храним в репозитории: задайте их в Cloudflare → Pages → Settings → Variables and Secrets
+# или командой: npx wrangler pages secret put BOT_TOKEN --project-name english-landing
+# Необязательная привязка KV для копии заявок (создайте namespace и раскомментируйте):
+# [[kv_namespaces]]
+# binding = "LEADS_KV"
+# id = "<id вашего KV namespace>"

@@ -1,0 +1,12 @@
+{
+  "name": "english-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Лендинг для записи на пробный урок английского, заявки уходят в Telegram",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
